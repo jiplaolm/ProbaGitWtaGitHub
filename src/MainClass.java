@@ -7,4 +7,8 @@ public class MainClass {
     private static void metodoBerriBat() {
         System.out.println("Beste metodo bat");
     }
+
+    private static besteMetodoBat() {
+        System.out.println("Azkena");
+    }
 }
