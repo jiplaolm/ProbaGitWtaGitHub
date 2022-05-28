@@ -5,6 +5,12 @@ public class MainClass {
     public static void main(String[] args) {
         System.out.println("Aldaketa berri bat");
         metodoBerriBat();
+        BankAccount myAccount = new BankAccountBuilder()
+                .setOwner("me")
+                .setPlace("myTown")
+                .setInterest(0.23)
+                .setBalance(2000)
+                .createBankAccount();
     }
 
     private static void metodoBerriBat() {
