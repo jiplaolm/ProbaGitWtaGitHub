@@ -8,7 +8,8 @@ public class MainClass {
         System.out.println("Beste metodo bat");
     }
 
-    private static besteMetodoBat() {
+    private static void besteMetodoBat() {
         System.out.println("Azkena");
+        System.out.println("Beste zerbait");
     }
 }
